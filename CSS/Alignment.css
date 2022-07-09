@@ -1,0 +1,12 @@
+.one{
+    text-align: center;
+}
+#two{
+    text-align: left;
+}
+#three{
+    text-align: right;
+}
+.four{
+    text-align: justify;
+}

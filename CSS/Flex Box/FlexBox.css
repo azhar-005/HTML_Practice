@@ -1,0 +1,54 @@
+.common {
+    width: 20%;
+    height: 20px;
+    /* margin: 10px; */
+    border: 5px solid darkmagenta;
+    background-color: lightseagreen;
+    border-radius: 10%;
+}
+.parent{
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    height: 300px;
+    display: flex; /* to convert a container into a flex box container
+    /* flex-wrap: wrap; to avoid child elements getting shrinked in flex container */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* neeche ke elements container ko move karne ke liye istemal hote hain */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: flex-end; */  /* to align the items horizontally at the end/right side */
+    /* justify-content: flex-start; */ /* to align the items horizontally at the start/left side*/
+    /* align-items: flex-start; to align the items vertically at the start/top */
+    /* align-items: flex-end; */ /* to align the items vertically at the end/bottom */
+    /* flex-flow: column wrap; short hand for flex-direction and flex-wrap */
+    /* align-content: space-between: verical size availabe will be aligned between the elements */
+    /* align-content: space-around; vertical size available will be around the elements but not equally */
+     /*align-content: space-evenly; vertical size available will be around the elements equally  */
+    /* justify-content: space-around; horizontal size available will be aligned around the elements but not equally*/
+    /* justify-content: space-evenly; horizontal size available will be aligned around the elements equally*/
+    /* justify-content: space-between; horizontal size available will be aligned between the elements*/
+    justify-content: space-evenly;
+}
+/* neeche ke properties child tag ko istemal kar skte hain
+.one{
+    flex-grow: 1; elements with the flex grow value will take up the available width in a row in the given properties*/
+     /* elements with the flex grow value will take up the available width in a row in the given proportion*/
+/* } */
+/* .two{
+    flex-grow: 1;
+} */ 
+/* .one{
+    align-self: center;
+
+}
+.two{
+    align-self: flex-start;
+}
+.three{
+    align-self: flex-end;
+} */

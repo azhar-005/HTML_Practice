@@ -1,0 +1,29 @@
+.list{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    border: 2px solid red;
+}
+.div1{
+    background-color: lightblue;
+    margin: 30px;
+
+}
+.bodyimg{
+    padding: 40px;
+    height: 800px;
+    width: 1500px;
+    background-image: url(https://cdn.wallpapersafari.com/18/43/Uma7NI.jpg);
+    /* margin-left: 0px; */
+    background-size: cover;
+}
+body{
+    margin: 0px;
+}
+.divsearch{
+    display: inline-block;
+}
+.btnsearch{
+    display: inline-block;
+    padding: 30px;
+}

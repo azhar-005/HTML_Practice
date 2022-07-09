@@ -1,0 +1,16 @@
+div{
+    /* border: 5px double palevioletred; height: 200px; width: 200px;
+    /* Border Radius */
+    /* border-top-left-radius: 100px; border-bottom-left-radius: 100px; */
+    /* border-top-right-radius: 100px; border-bottom-right-radius: 100px; */
+    /* border-radius: 25px; */
+}
+.one{
+    border: 5px solid red;
+    border-radius: 25px 0px 20px;
+    height: 50px; width: 50px;
+}
+button{
+    border-radius: 25px 0px 25px;
+    border: none;
+}

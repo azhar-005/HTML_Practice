@@ -1,0 +1,59 @@
+.parent{
+    background-color: skyblue;
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+}
+.first{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 500px;
+    animation-name: sample;
+    position: absolute;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+@keyframes sample{
+    /* from {
+background-color: green;
+width: 300px;
+height: 300px;
+    }
+    to {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    } */
+    0%{
+        top: 0;
+        left: 500px;
+        background-color: brown;
+        border-radius: 50%;
+    }
+    25% {
+        top: 1000px;
+        left: 500px;
+        background-color: darkblue;
+        border-radius: 0%;
+    }
+    50% {
+        top: 500px;
+        left: 0px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    75% {
+        top: 0;
+        left: 500px;
+        background-color: orange;
+    }
+    100% {
+        top: 0px;
+        left: 500px;
+        background-color: darkgreen;
+    }
+    
+}

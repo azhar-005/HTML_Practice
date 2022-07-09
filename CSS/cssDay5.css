@@ -1,0 +1,9 @@
+#two{
+    color: blue; font-size: 100px;
+}
+#four{
+    color: blue; background-color: lightgreen; font-style: oblique; font-size: 50px;
+}
+.name{
+    color: lightseagreen; background-color: darkred; font-size: 50px;
+}

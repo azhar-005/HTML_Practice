@@ -1,0 +1,17 @@
+.one{
+    background-color: aqua;
+    height: 200px; width: 200px;
+    padding: 75px 50px 75px;
+    border: 10px double red;
+    box-sizing: border-box;
+    margin: 50px;
+    /* box sizing height and width ke andar hi apply hoga */
+}
+.two{
+    background-color: lightpink;
+    height: 300px; width: 300px;
+    border: 3px dotted red;
+    padding: 120px;
+    box-sizing: border-box;
+    margin: 60px;
+}

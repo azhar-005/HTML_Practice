@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Form Items</title>
+    <link rel="stylesheet" href="./PseudoClassesForm.css">
+</head>
+<body>
+    <h1>Form sample by using FOCUS, CHECKED, REQUIRED, and IN-Range</h1>
+    <center><h1> Student Login Form </h1></center> 
+    <form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text"  name="username" required>
+            <label>Password : </label> 
+            <input type="password"  name="password" required>
+            <label>Birthdate : </label> 
+            <input type="date" min="01-01-1987" max="01-01-2006"  name="Birthdate">
+            <button type="submit">Login</button> 
+            <input type="checkbox" checked="checked"> Remember me 
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>
+</body>
+</html>

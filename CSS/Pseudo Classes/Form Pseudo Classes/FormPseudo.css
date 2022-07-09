@@ -1,0 +1,50 @@
+form{
+    border: 2px solid black;
+    width: fit-content;
+    background-color: lightgray;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+input{
+    border-radius: 20px;
+    background-color: lightskyblue;
+}
+/* for all writable input box */
+
+input[type='Email']:focus{
+    border: 4px solid red;
+}
+
+input[type='radio']:focus+span{
+    color: red;
+}
+/* =========Checked========= */
+/* it works with input type radio & checkbox */
+input[type='checkbox']:checked{
+    box-shadow: 0 0 0 3px red;
+}
+/* =======disabled======== */
+/* input:disabled{
+    border: 2px solid red;
+} */
+/* enabled */
+/* input:enabled{
+    box-shadow: 0 0 0 3px red;
+    border: 2px solid red;
+} */
+/* ======in-range and out of range class */
+/* input:out-of-range{
+    border: 2px solid red;
+} */
+/* =====read-only====== */
+/* input:read-only{
+    box-shadow: 0 0 0 3px red;
+} */
+/* =====read-write====== */
+/* input:read-write{
+    border: 2px dotted pink;
+} */
+/* valid and in valid class */
+input:default{
+    border: 2px solid darkgreen;
+}

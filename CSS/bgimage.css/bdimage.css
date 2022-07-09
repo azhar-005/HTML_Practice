@@ -1,0 +1,12 @@
+.mydiv{
+    width: 200px; height: 200px;
+    border: 2px solid teal;
+    background-image: url(../../images/download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url(../../images/pexels-stein-egil-liland-1933239.jpg);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+}

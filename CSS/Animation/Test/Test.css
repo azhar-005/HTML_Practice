@@ -1,0 +1,86 @@
+body {
+background-color: aquamarine;
+
+}
+.first{
+    background-color: red;
+    width: 1400px;
+    height: 1400px;
+    position: relative;
+    
+}
+.second{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 500px;
+    animation-name: test;
+    position: absolute;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    
+}
+.third{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 500px;
+    animation-name: test;
+    position: absolute;
+    animation-duration: 12s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+.four{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 500px;
+    animation-name: test1;
+    position: absolute;
+    animation-duration: 12s;
+    animation-iteration-count: 10;
+    animation-timing-function: linear;
+}
+@keyframes test{
+    0%{
+        top: 0;
+        left: 600px;
+        background-color: brown;
+        border-radius: 50%;
+    }
+    25% {
+        top: 600px;
+        left: 1200px;
+        background-color: darkblue;
+        border-radius: 0%;
+    }
+    50% {
+        top: 1200px;
+        left: 600px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    75% {
+        top: 600;
+        left: 0;
+        background-color: orange;
+    }
+    100% {
+        top: 0px;
+        left: 500px;
+        background-color: darkgreen;
+    }
+} 
+@keyframes test1{
+    from {
+        background-color: khaki;
+    }
+    to {
+        background-color: darkred;
+    }
+}
